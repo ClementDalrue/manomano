@@ -6,9 +6,10 @@ import { Link } from "react-router-dom";
 const Page6 = () => {
   return (
     <div>
-       <Link to="/page7" element={<Page7 />}>
-      <img src={page6} className="page-6" alt="page6" />
+      <Link to="/page7" element={<Page7 />}>
+        <button className="button-page-6"> ToPage7</button>
       </Link>
+      <img src={page6} className="page-6" alt="page6" />
     </div>
   );
 };

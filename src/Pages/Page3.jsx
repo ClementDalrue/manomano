@@ -7,8 +7,9 @@ const Page3 = () => {
   return (
     <div>
       <Link to="/page4" element={<Page4 />}>
-        <img src={page3} className="page-3" alt="page3" />
+        <button className="button-page-3"> ToPage4</button>
       </Link>
+      <img src={page3} className="page-3" alt="page3" />
     </div>
   );
 };
