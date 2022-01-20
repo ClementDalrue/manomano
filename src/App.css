@@ -21,6 +21,81 @@
     transition: opacity 0.4s;
     opacity: 0.5;
   }
+
+  .page-1-homepage {
+    width: 100%;
+  }
+
+  .scrollTop {
+    position: fixed;
+    width: 40px;
+    bottom: 20px;
+    right: 20px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+  }
+
+  .div-scroll-top {
+    text-align: right;
+  }
+
+  .button-page-1 {
+    position: absolute;
+    top: 763px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 285px;
+    height: 64px;
+    font-size: 0;
+  }
+
+  .button-page-3 {
+    position: absolute;
+    top: 393px;
+    left: 510px;
+    z-index: 10;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+  }
+
+  .button-page-4 {
+    position: absolute;
+    top: 662px;
+    left: 510px;
+    z-index: 10;
+    width: 17px;
+    height: 17px;
+    font-size: 0;
+  }
+
+  .button-page-5 {
+    position: absolute;
+    top: 930px;
+    left: 59%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 211px;
+    height: 51px;
+    font-size: 0;
+  }
+
+  .button-page-6 {
+    position: absolute;
+    top: 385px;
+    left: 150px;
+    z-index: 10;
+    width: 335px;
+    height: 600px;
+    font-size: 0;
+  }
 }
 
 .scrollTop:hover {
@@ -56,27 +131,4 @@
   #modal-cancel-btn {
     @apply w-full px-10 text-xs text-white py-2 mt-6 font-bold rounded-lg bg-callToAction mr-2;
   }
-}
-
-.page-1-homepage {
-  width: 100%;
-}
-
-.scrollTop {
-  position: fixed;
-  width: 40px;
-  bottom: 20px;
-  right: 20px;
-  align-items: center;
-  height: 20px;
-  justify-content: center;
-  z-index: 1000;
-  cursor: pointer;
-  animation: fadeIn 0.3s;
-  transition: opacity 0.4s;
-  opacity: 0.5;
-}
-
-.div-scroll-top {
-  text-align: right;
 }
