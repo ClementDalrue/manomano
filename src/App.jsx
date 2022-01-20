@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import logo from './logo.svg'
-import './App.css'
+import { useState } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import ScrollArrow from "./components/ScrollArrow";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -27,7 +28,7 @@ function App() {
           >
             Learn React
           </a>
-          {' | '}
+          {" | "}
           <a
             className="App-link"
             href="https://vitejs.dev/guide/features.html"
@@ -38,8 +39,11 @@ function App() {
           </a>
         </p>
       </header>
+      <div className="">
+        <ScrollArrow />
+      </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
