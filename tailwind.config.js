@@ -1,7 +1,9 @@
 module.exports = {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: { callToAction: "#ffb950" },
+    },
   },
   plugins: [],
-}
+};
