@@ -18,9 +18,6 @@ function App() {
         <Searchbar />
       </header>
       <Modal />
-      <div>
-        <img src={Page1homepage} className="page-1-homepage" alt="homepage" />
-      </div>
       <div className="">
         <Router>
           <Routes>
