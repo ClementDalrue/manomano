@@ -4,6 +4,8 @@
 
 @layer base {
 
+
+
   .App {
     text-align: center;
     height: 5000px;
@@ -27,6 +29,10 @@
     opacity: 1;
   }
   
+  .page-1-homepage {
+    width: 100%;
+  }
+  
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -37,4 +43,5 @@
   }
 
 }
+
 

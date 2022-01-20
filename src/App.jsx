@@ -1,3 +1,4 @@
+import page1homepage from "./page-1-homepage.jpg";
 import Searchbar from "./components/Searchbar";
 import ScrollArrow from "./components/ScrollArrow";
 
@@ -9,6 +10,9 @@ function App() {
       <header className="App-header">
         <Searchbar />
       </header>
+      <div>
+        <img src={page1homepage} className="page-1-homepage" alt="homepage" />
+      </div>
       <div className="">
         <ScrollArrow />
       </div>
