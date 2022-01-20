@@ -1,5 +1,5 @@
 const Modal = ({ setOpenModal }) => {
-  return (
+  return function setOpenModal() {
     <>
       <div className="modal-background">
         <div className="modal-container">
@@ -24,8 +24,8 @@ const Modal = ({ setOpenModal }) => {
           </div>
         </div>
       </div>
-    </>
-  );
+    </>;
+  };
 };
 
 export default Modal;
