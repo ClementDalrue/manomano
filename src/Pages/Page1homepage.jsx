@@ -6,10 +6,15 @@ import { Link } from 'react-router-dom';
 const Page1homepage = () => {
   return (
     <div>
-      {/* <button className="button-next-page"> NextPage</button> */}
+      <div>
+
       <Link to="page2" element={Page2}>
-      <img src={page1homepage} className="page-1-homepage" alt="homepage" />
+      <button className="button-page-1"> NextPage</button>
       </Link>
+      </div>
+      
+      <img src={page1homepage} className="page-1-homepage" alt="homepage" />
+      
     </div>
   );
 };
