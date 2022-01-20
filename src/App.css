@@ -8,30 +8,14 @@
 
   .App {
     text-align: center;
-    height: 5000px;
   }
   
-  .scrollTop {
-    position: fixed;
-    width: 50%;
-    bottom: 20px;
-    align-items: center;
-    height: 20px;
-    justify-content: center;
-    z-index: 1000;
-    cursor: pointer;
-    animation: fadeIn 0.3s;
-    transition: opacity 0.4s;
-    opacity: 0.5;
-  }
-  
+
   .scrollTop:hover {
     opacity: 1;
   }
   
-  .page-1-homepage {
-    width: 100%;
-  }
+  
   
   @keyframes fadeIn {
     0% {
@@ -42,6 +26,29 @@
     }
   }
 
+
+
+.page-1-homepage {
+    width: 100%;
+  }
+
+.scrollTop {
+  position: fixed;
+  width: 40px;
+  bottom: 20px;
+  right: 20px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
 }
 
+.div-scroll-top {
+text-align: right;
+}
 
+}
