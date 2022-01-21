@@ -2,12 +2,15 @@ import Searchbar from "./components/Searchbar";
 import ScrollArrow from "./components/ScrollArrow";
 import Modal from "./components/Modal";
 import Page1homepage from "./Pages/Page1homepage";
+
 import Page2 from "./Pages/Page2";
 import Page3 from "./Pages/Page3";
 import Page4 from "./Pages/Page4";
 import Page5 from "./Pages/Page5";
 import Page6 from "./Pages/Page6";
 import Page7 from "./Pages/Page7";
+import Panier from "./Pages/Panier";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
@@ -17,6 +20,7 @@ function App() {
       <header className="App-header">
         <Searchbar />
       </header>
+
       <Modal />
       <div className="">
         <Router>
@@ -40,6 +44,9 @@ function App() {
             <Route path="/page7" element={<Page7 />}>
               {" "}
             </Route>
+            <Route path="/Panier" element={<Panier />}>
+            {" "}
+          </Route>
           </Routes>
         </Router>
         <div className="div-scroll-top">

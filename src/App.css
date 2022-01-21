@@ -130,4 +130,20 @@
   #modal-cancel-btn {
     @apply w-full px-10 text-xs text-white py-2 mt-6 font-bold rounded-lg bg-callToAction mr-2;
   }
+
+  .switch {
+    bottom: 638px;
+    left: 320px;
+  }
+  .listbox {
+    position: absolute;
+    bottom: 290px;
+    left: 1050px;
+  }
+  #commande {
+    position: absolute;
+    bottom: 330px;
+    left: 1150px;
+    transform: translate(-50%, -50%);
+  }
 }
