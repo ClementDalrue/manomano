@@ -3,20 +3,14 @@
 @tailwind utilities;
 
 @layer base {
-
-
-
   .App {
     text-align: center;
   }
-  
 
   .scrollTop:hover {
     opacity: 1;
   }
-  
-  
-  
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -26,29 +20,42 @@
     }
   }
 
-
-
-.page-1-homepage {
+  .page-1-homepage {
     width: 100%;
   }
 
-.scrollTop {
-  position: fixed;
-  width: 40px;
-  bottom: 20px;
-  right: 20px;
-  align-items: center;
-  height: 20px;
-  justify-content: center;
-  z-index: 1000;
-  cursor: pointer;
-  animation: fadeIn 0.3s;
-  transition: opacity 0.4s;
-  opacity: 0.5;
-}
+  .scrollTop {
+    position: fixed;
+    width: 40px;
+    bottom: 20px;
+    right: 20px;
+    align-items: center;
+    height: 20px;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+  }
 
-.div-scroll-top {
-text-align: right;
-}
+  .div-scroll-top {
+    text-align: right;
+  }
 
+  .switch {
+    bottom: 638px;
+    left: 320px;
+  }
+  .listbox {
+    position: absolute;
+    bottom: 290px;
+    left: 1050px;
+  }
+  #commande {
+    position: absolute;
+    bottom: 330px;
+    left: 1150px;
+    transform: translate(-50%, -50%);
+  }
 }
