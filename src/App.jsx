@@ -1,5 +1,6 @@
 import Searchbar from "./components/Searchbar";
 import ScrollArrow from "./components/ScrollArrow";
+import Modal from "./components/Modal";
 import Page1homepage from "./Pages/Page1homepage";
 
 import Page2 from "./Pages/Page2";
@@ -19,34 +20,38 @@ function App() {
       <header className="App-header">
         <Searchbar />
       </header>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Page1homepage />} />
-          <Route path="/page2" element={<Page2 />}>
+
+      <Modal />
+      <div className="">
+        <Router>
+          <Routes>
+            <Route exact path="/" element={<Page1homepage />} />
+            <Route path="/page2" element={<Page2 />}>
+              {" "}
+            </Route>
+            <Route path="/page3" element={<Page3 />}>
+              {" "}
+            </Route>
+            <Route path="/page4" element={<Page4 />}>
+              {" "}
+            </Route>
+            <Route path="/page5" element={<Page5 />}>
+              {" "}
+            </Route>
+            <Route path="/page6" element={<Page6 />}>
+              {" "}
+            </Route>
+            <Route path="/page7" element={<Page7 />}>
+              {" "}
+            </Route>
+            <Route path="/Panier" element={<Panier />}>
             {" "}
           </Route>
-          <Route path="/page3" element={<Page3 />}>
-            {" "}
-          </Route>
-          <Route path="/page4" element={<Page4 />}>
-            {" "}
-          </Route>
-          <Route path="/page5" element={<Page5 />}>
-            {" "}
-          </Route>
-          <Route path="/page6" element={<Page6 />}>
-            {" "}
-          </Route>
-          <Route path="/page7" element={<Page7 />}>
-            {" "}
-          </Route>
-          <Route path="/Panier" element={<Panier />}>
-            {" "}
-          </Route>
-        </Routes>
-      </Router>
-      <div className="div-scroll-top">
-        <ScrollArrow />
+          </Routes>
+        </Router>
+        <div className="div-scroll-top">
+          <ScrollArrow />
+        </div>
       </div>
     </div>
   );
